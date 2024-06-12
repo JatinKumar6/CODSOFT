@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        header {
+            background-color: white;
+            height: 35px;
+        }
+        header img {
+            height: 30px;
+            width: 90px;
+            padding-left:5px;
+            padding-right: 30px;
+        }
+        body {
+            background-color: rgb(12, 5, 28);
+            margin: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            font-size: 0.85rem;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-right: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #img-2 {
+            height: 30px;
+            width: 90px;
+            padding-right: 20px;
+        }
+        .navlinks {
+            padding-top: 4px;
+        }
+        .navlinks label {
+            color: white;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            border: rgb(4, 154, 22) solid 2px;
+            border-radius: 7px;
+            background-color:rgb(4, 154, 22) ;
+            padding-left: 5px;
+            padding-right: 2px;
+            padding-bottom: 2px;
+        }
+        .navlinks label a{
+            color: white;
+        }
+        .right {
+            display: flex;
+        }
+        .left {
+            display: flex;
+        }
+        .navbar-2 {
+            display: flex;
+        }
+        .navbar-2 a {
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:black;
+            font-weight: bold;
+        }
+        .left-2 {
+            padding-left: 5px;
+            padding-right: 70px;
+        }
+        h2 {
+            margin: 0;
+        }
+        .right-2 {
+            padding-top: 7px;
+        }
+        .right-2 a{
+            padding-right: 20px;
+        }
+        .head-2 {
+            background-color: rgba(252, 252, 252, 0.941);
+        }
+        .container {
+            display: flex;
+            margin: auto;
+            width: 800px;
+            margin-top: 100px;
+            color: white;
+        }
+        .container label a {
+            text-decoration: none;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:bold;
+            font-size: 0.85rem;
+        }
+        .container label {
+            background-color: white;
+            padding: 0.5rem ;
+            border-radius: 5px;
+
+        }
+        .container h1{
+            margin: 0;
+        }
+        .container p{
+            margin: 0;
+            padding: 2rem 0;
+            padding-right: 0.5rem;
+        }
+        .container img{
+            height: 250px;
+        }
+        footer {
+            margin: auto;
+            width: 800px;
+            margin-top: 100px;
+        }
+        footer h3 {
+            text-align: center;
+            color: white;
+        }
+        footer img {
+            height:70px ;
+            width:120px ;
+            padding-right: 4.80rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="left">
+                <div>
+                    <img src="banner.png" >
+                </div>
+                <div class="navlinks" >
+                    <a href="">Why Grammarly</a>
+                    <a href="">For Work</a>
+                    <a href="">For Education</a>
+                    <a href="">Campare Plans</a>
+                    <a href="">Tools & Guides</a>
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <img src="img 2.png" id="img-2">
+                </div>
+                <div class="navlinks">
+                    <label for="free-trail"><a href="">Start a Free Trial</a></label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="head-2">
+        <div class="navbar-2">
+            <div class="left-2">
+                <h2>Business</h2>
+            </div>
+            <div class="right-2">
+                <a href="">Pricing</a>
+                <a href="">Solutions</a>
+                <a href="">Learn</a>
+                <a href="">Security</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div>
+            <h1>AI Your Business Can <br> Run With</h1>
+            <p>Grammarly Business combines AI communication assistance with knowledge of your entire organization to achieve results.Experience work with the intelligence you need,when you need it, where you're already working.</p>
+            <label for="free-trail"><a href="">Start a Free Trial</a></label>
+        </div>
+        <div>   
+            <img src="business-woman.jpg" >
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h3>Trusted by teams at</h3>
+            <img src="databricks.png" >
+            <img src="everlane.png" >
+            <img src="epensify.png" >
+            <img src="hackerone.png" >
+        </div>
+    </footer>
+</body>
+</html> 
